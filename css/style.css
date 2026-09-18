@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 1em;
+    font-family: "Reggae One", system-ui;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+footer {
+    background-color: FireBrick;
+    padding: 30px 20px;
+}
+
+#about {
+    background-color:beige;
+    padding: 20px;
+    text-align: center;
+}
+
+#articles {
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ol{
+    padding-left: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
